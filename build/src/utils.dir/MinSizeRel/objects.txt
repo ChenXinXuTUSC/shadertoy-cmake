@@ -1,2 +1,0 @@
-F:/fredom/workspace/play-cc/shadertoy/build/src/utils.dir/MinSizeRel/clog.obj
-F:/fredom/workspace/play-cc/shadertoy/build/src/utils.dir/MinSizeRel/cpplog.obj

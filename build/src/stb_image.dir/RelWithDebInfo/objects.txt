@@ -1,1 +1,0 @@
-F:/fredom/workspace/play-cc/shadertoy/build/src/stb_image.dir/RelWithDebInfo/stb_image.obj

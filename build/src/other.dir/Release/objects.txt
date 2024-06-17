@@ -1,2 +1,0 @@
-F:/fredom/workspace/play-cc/shadertoy/build/src/other.dir/Release/add.obj
-F:/fredom/workspace/play-cc/shadertoy/build/src/other.dir/Release/mathnipet.obj

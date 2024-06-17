@@ -1,2 +1,0 @@
-F:/fredom/workspace/play-cc/shadertoy/build/src/dummy.dir/Release/dummy.obj
-F:/fredom/workspace/play-cc/shadertoy/build/src/dummy.dir/Release/dummy2.obj
