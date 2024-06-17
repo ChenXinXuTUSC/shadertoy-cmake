@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E305681D-AA5C-305F-BEE5-F5A4B8FC2590}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\fredom\workspace\play-cc\shadertoy\include;F:\fredom\workspace\play-cc\shadertoy\include\GLFW;F:\fredom\workspace\play-cc\shadertoy\include\KHR;F:\fredom\workspace\play-cc\shadertoy\include\assimp;F:\fredom\workspace\play-cc\shadertoy\include\assimp\Compiler;F:\fredom\workspace\play-cc\shadertoy\include\dummy;F:\fredom\workspace\play-cc\shadertoy\include\dummy\dummy2;F:\fredom\workspace\play-cc\shadertoy\include\glad;F:\fredom\workspace\play-cc\shadertoy\include\glm;F:\fredom\workspace\play-cc\shadertoy\include\glm\detail;F:\fredom\workspace\play-cc\shadertoy\include\glm\ext;F:\fredom\workspace\play-cc\shadertoy\include\glm\gtc;F:\fredom\workspace\play-cc\shadertoy\include\glm\gtx;F:\fredom\workspace\play-cc\shadertoy\include\glm\simd;F:\fredom\workspace\play-cc\shadertoy\include\learnopengl;F:\fredom\workspace\play-cc\shadertoy\include\stb_image;F:\fredom\workspace\play-cc\shadertoy\include\utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\fredom\workspace\play-cc\shadertoy\include;F:\fredom\workspace\play-cc\shadertoy\include\GLFW;F:\fredom\workspace\play-cc\shadertoy\include\KHR;F:\fredom\workspace\play-cc\shadertoy\include\assimp;F:\fredom\workspace\play-cc\shadertoy\include\assimp\Compiler;F:\fredom\workspace\play-cc\shadertoy\include\dummy;F:\fredom\workspace\play-cc\shadertoy\include\dummy\dummy2;F:\fredom\workspace\play-cc\shadertoy\include\glad;F:\fredom\workspace\play-cc\shadertoy\include\glm;F:\fredom\workspace\play-cc\shadertoy\include\glm\detail;F:\fredom\workspace\play-cc\shadertoy\include\glm\ext;F:\fredom\workspace\play-cc\shadertoy\include\glm\gtc;F:\fredom\workspace\play-cc\shadertoy\include\glm\gtx;F:\fredom\workspace\play-cc\shadertoy\include\glm\simd;F:\fredom\workspace\play-cc\shadertoy\include\learnopengl;F:\fredom\workspace\play-cc\shadertoy\include\stb_image;F:\fredom\workspace\play-cc\shadertoy\include\utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\fredom\workspace\play-cc\shadertoy\include;F:\fredom\workspace\play-cc\shadertoy\include\GLFW;F:\fredom\workspace\play-cc\shadertoy\include\KHR;F:\fredom\workspace\play-cc\shadertoy\include\assimp;F:\fredom\workspace\play-cc\shadertoy\include\assimp\Compiler;F:\fredom\workspace\play-cc\shadertoy\include\dummy;F:\fredom\workspace\play-cc\shadertoy\include\dummy\dummy2;F:\fredom\workspace\play-cc\shadertoy\include\glad;F:\fredom\workspace\play-cc\shadertoy\include\glm;F:\fredom\workspace\play-cc\shadertoy\include\glm\detail;F:\fredom\workspace\play-cc\shadertoy\include\glm\ext;F:\fredom\workspace\play-cc\shadertoy\include\glm\gtc;F:\fredom\workspace\play-cc\shadertoy\include\glm\gtx;F:\fredom\workspace\play-cc\shadertoy\include\glm\simd;F:\fredom\workspace\play-cc\shadertoy\include\learnopengl;F:\fredom\workspace\play-cc\shadertoy\include\stb_image;F:\fredom\workspace\play-cc\shadertoy\include\utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\fredom\workspace\play-cc\shadertoy\include;F:\fredom\workspace\play-cc\shadertoy\include\GLFW;F:\fredom\workspace\play-cc\shadertoy\include\KHR;F:\fredom\workspace\play-cc\shadertoy\include\assimp;F:\fredom\workspace\play-cc\shadertoy\include\assimp\Compiler;F:\fredom\workspace\play-cc\shadertoy\include\dummy;F:\fredom\workspace\play-cc\shadertoy\include\dummy\dummy2;F:\fredom\workspace\play-cc\shadertoy\include\glad;F:\fredom\workspace\play-cc\shadertoy\include\glm;F:\fredom\workspace\play-cc\shadertoy\include\glm\detail;F:\fredom\workspace\play-cc\shadertoy\include\glm\ext;F:\fredom\workspace\play-cc\shadertoy\include\glm\gtc;F:\fredom\workspace\play-cc\shadertoy\include\glm\gtx;F:\fredom\workspace\play-cc\shadertoy\include\glm\simd;F:\fredom\workspace\play-cc\shadertoy\include\learnopengl;F:\fredom\workspace\play-cc\shadertoy\include\stb_image;F:\fredom\workspace\play-cc\shadertoy\include\utils;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\fredom\workspace\play-cc\shadertoy\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/fredom/workspace/play-cc/shadertoy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+E:\CMake\bin\cmake.exe -SF:/fredom/workspace/play-cc/shadertoy -BF:/fredom/workspace/play-cc/shadertoy/build --check-stamp-file F:/fredom/workspace/play-cc/shadertoy/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\3.27.0-rc4\CMakeCCompiler.cmake;F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\3.27.0-rc4\CMakeCXXCompiler.cmake;F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\3.27.0-rc4\CMakeRCCompiler.cmake;F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\3.27.0-rc4\CMakeSystem.cmake;F:\fredom\workspace\play-cc\shadertoy\cmake\macro.cmake;F:\fredom\workspace\play-cc\shadertoy\import.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/fredom/workspace/play-cc/shadertoy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+E:\CMake\bin\cmake.exe -SF:/fredom/workspace/play-cc/shadertoy -BF:/fredom/workspace/play-cc/shadertoy/build --check-stamp-file F:/fredom/workspace/play-cc/shadertoy/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\3.27.0-rc4\CMakeCCompiler.cmake;F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\3.27.0-rc4\CMakeCXXCompiler.cmake;F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\3.27.0-rc4\CMakeRCCompiler.cmake;F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\3.27.0-rc4\CMakeSystem.cmake;F:\fredom\workspace\play-cc\shadertoy\cmake\macro.cmake;F:\fredom\workspace\play-cc\shadertoy\import.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/fredom/workspace/play-cc/shadertoy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+E:\CMake\bin\cmake.exe -SF:/fredom/workspace/play-cc/shadertoy -BF:/fredom/workspace/play-cc/shadertoy/build --check-stamp-file F:/fredom/workspace/play-cc/shadertoy/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\3.27.0-rc4\CMakeCCompiler.cmake;F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\3.27.0-rc4\CMakeCXXCompiler.cmake;F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\3.27.0-rc4\CMakeRCCompiler.cmake;F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\3.27.0-rc4\CMakeSystem.cmake;F:\fredom\workspace\play-cc\shadertoy\cmake\macro.cmake;F:\fredom\workspace\play-cc\shadertoy\import.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/fredom/workspace/play-cc/shadertoy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+E:\CMake\bin\cmake.exe -SF:/fredom/workspace/play-cc/shadertoy -BF:/fredom/workspace/play-cc/shadertoy/build --check-stamp-file F:/fredom/workspace/play-cc/shadertoy/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;E:\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;E:\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;E:\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\3.27.0-rc4\CMakeCCompiler.cmake;F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\3.27.0-rc4\CMakeCXXCompiler.cmake;F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\3.27.0-rc4\CMakeRCCompiler.cmake;F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\3.27.0-rc4\CMakeSystem.cmake;F:\fredom\workspace\play-cc\shadertoy\cmake\macro.cmake;F:\fredom\workspace\play-cc\shadertoy\import.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\ZERO_CHECK.vcxproj">
+      <Project>{14781719-DF9D-308A-A5FC-277F6815599A}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\app\camera.vcxproj">
+      <Project>{5DF8FA4C-E8E1-3214-B8BD-A86FE4465009}</Project>
+      <Name>camera</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\test\clog_test.vcxproj">
+      <Project>{C0AB975A-25F9-3C1D-BBD1-17DD96933898}</Project>
+      <Name>clog_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\app\coordinate.vcxproj">
+      <Project>{213A4FB1-22C2-30DA-AD7C-96FB9887D88E}</Project>
+      <Name>coordinate</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\test\cpplog_test.vcxproj">
+      <Project>{42466E88-A6A0-3559-808A-5A75CF76C930}</Project>
+      <Name>cpplog_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\src\dummy.vcxproj">
+      <Project>{40EA3511-EEDB-3B6D-859B-082CD55E1249}</Project>
+      <Name>dummy</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\test\enummap.vcxproj">
+      <Project>{0EC3F5F3-095D-3AFB-895D-A0E62A9B0367}</Project>
+      <Name>enummap</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\app\framebuffer.vcxproj">
+      <Project>{EA51D81B-3052-39A9-A8CF-85110B8129BD}</Project>
+      <Name>framebuffer</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\src\glad.vcxproj">
+      <Project>{0F1E9A8F-1EC8-3B52-9BEE-E9ECCF69660D}</Project>
+      <Name>glad</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\test\include.vcxproj">
+      <Project>{C396E8D8-DA36-3B97-BED0-5E6B2ECD53B3}</Project>
+      <Name>include</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\app\isovalues.vcxproj">
+      <Project>{AA13C6B9-6E9E-3CA3-B838-6DBF777F06E5}</Project>
+      <Name>isovalues</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\app\main.vcxproj">
+      <Project>{422A0068-93E5-3FCD-B6A6-8804E2A7D9EA}</Project>
+      <Name>main</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\test\mixlog_test.vcxproj">
+      <Project>{AA8C0135-4EB1-347A-BE8C-C317371BEE40}</Project>
+      <Name>mixlog_test</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\app\model_load.vcxproj">
+      <Project>{3E50726F-44AB-31AB-9350-74978979BA65}</Project>
+      <Name>model_load</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\src\other.vcxproj">
+      <Project>{AF5D2630-6966-3519-8A7C-3199F026DAE2}</Project>
+      <Name>other</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\app\simple.vcxproj">
+      <Project>{12BC4E9A-0912-3E6D-AAB2-AC0937BA262F}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\src\stb_image.vcxproj">
+      <Project>{572EC65C-6FFC-3E8F-BF02-E290DCDA171A}</Project>
+      <Name>stb_image</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\app\texture.vcxproj">
+      <Project>{B03C1954-D8EA-3ABD-9BB2-9080E413D1F4}</Project>
+      <Name>texture</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\app\transform.vcxproj">
+      <Project>{1247327A-4A0B-38CA-A80C-9C194E952E9E}</Project>
+      <Name>transform</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\app\triangle.vcxproj">
+      <Project>{34DCE1B4-F34E-334C-8D04-81B16CE4E54E}</Project>
+      <Name>triangle</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\fredom\workspace\play-cc\shadertoy\build\src\utils.vcxproj">
+      <Project>{0A140B20-5A08-315D-940E-EFC81E649145}</Project>
+      <Name>utils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

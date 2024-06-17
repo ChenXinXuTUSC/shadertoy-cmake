@@ -1,0 +1,2 @@
+F:/fredom/workspace/play-cc/shadertoy/build/src/other.dir/MinSizeRel/add.obj
+F:/fredom/workspace/play-cc/shadertoy/build/src/other.dir/MinSizeRel/mathnipet.obj

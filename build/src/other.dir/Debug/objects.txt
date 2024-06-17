@@ -1,0 +1,2 @@
+F:/fredom/workspace/play-cc/shadertoy/build/src/other.dir/Debug/add.obj
+F:/fredom/workspace/play-cc/shadertoy/build/src/other.dir/Debug/mathnipet.obj

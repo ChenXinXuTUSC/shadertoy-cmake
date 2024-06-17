@@ -1,0 +1,1 @@
+F:/fredom/workspace/play-cc/shadertoy/build/src/stb_image.dir/MinSizeRel/stb_image.obj

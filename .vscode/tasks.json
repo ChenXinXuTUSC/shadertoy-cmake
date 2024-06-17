@@ -1,0 +1,43 @@
+{
+	"version": "2.0.0",
+	"options": {
+		"cwd": "${workspaceFolder}"
+	},
+	"tasks": [
+		{
+			"label": "CMake: Configure",
+			"type": "cmake",
+			"command": "configure",
+			// "type": "shell",
+			// "command": "cmake -B build .",
+			"detail": "CMake template configure task"
+		},
+		{
+			"label": "CMake: Build",
+			"type": "cmake",
+			"command": "build",
+			// "type": "shell",
+			// "command": "cmake --build build",
+            "dependsOn": [
+                "CMake: Configure"
+            ]
+		},
+        {
+            "label": "CMake: Install",
+            "type": "cmake",
+            "command": "install",
+			// "type": "shell",
+			// "command": "cmake --build build --target install",
+            "dependsOn": [
+                "CMake: Build"
+            ]
+        },
+		{
+			"label": "Build: All",
+			"group": "build",
+			"dependsOn": [
+				"CMake: Install"
+			]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\fredom\workspace\play-cc\shadertoy\build\CMakeFiles\c6f55bd1c61235a02b565c98f18d30ab\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\fredom\workspace\play-cc\shadertoy\app\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\app</Filter>
+    </None>
+    <None Include="F:\fredom\workspace\play-cc\shadertoy\cmake\macro.cmake">
+      <Filter>Buildsystem Input Files\cmake</Filter>
+    </None>
+    <None Include="F:\fredom\workspace\play-cc\shadertoy\import.cmake">
+      <Filter>Buildsystem Input Files</Filter>
+    </None>
+    <None Include="F:\fredom\workspace\play-cc\shadertoy\src\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\src</Filter>
+    </None>
+    <None Include="F:\fredom\workspace\play-cc\shadertoy\test\CMakeLists.txt">
+      <Filter>Buildsystem Input Files\test</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5EF6E926-D10A-3A45-B099-9E49CA5B3F4F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files">
+      <UniqueIdentifier>{74C73CC0-8316-3FFD-A88B-C6C6E50197B6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\app">
+      <UniqueIdentifier>{025B2AFD-BFDF-3373-AB6A-C3FE997493CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\cmake">
+      <UniqueIdentifier>{5B73F2B5-2E30-32DC-8C17-F7486B4E90EA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\src">
+      <UniqueIdentifier>{C4C96327-9D63-358B-AC77-D30E4CB59A22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Buildsystem Input Files\test">
+      <UniqueIdentifier>{BF9C8B6A-8052-3D6D-A5A0-C92A658434B6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

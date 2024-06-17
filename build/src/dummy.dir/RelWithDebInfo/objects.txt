@@ -1,0 +1,2 @@
+F:/fredom/workspace/play-cc/shadertoy/build/src/dummy.dir/RelWithDebInfo/dummy.obj
+F:/fredom/workspace/play-cc/shadertoy/build/src/dummy.dir/RelWithDebInfo/dummy2.obj

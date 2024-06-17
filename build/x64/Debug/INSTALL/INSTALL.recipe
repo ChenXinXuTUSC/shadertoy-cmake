@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\src\Debug\glad.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\src\Debug\stb_image.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\app\Debug\camera.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\src\Debug\dummy.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\src\Debug\other.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\src\Debug\utils.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\test\Debug\clog_test.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\app\Debug\coordinate.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\test\Debug\cpplog_test.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\test\Debug\enummap.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\app\Debug\framebuffer.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\test\Debug\include.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\app\Debug\isovalues.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\app\Debug\main.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\test\Debug\mixlog_test.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\app\Debug\model_load.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\app\Debug\simple.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\app\Debug\texture.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\app\Debug\transform.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\app\Debug\triangle.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>F:\fredom\workspace\play-cc\shadertoy\build\x64\Debug\INSTALL</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

@@ -1,0 +1,10 @@
+^F:\FREDOM\WORKSPACE\PLAY-CC\SHADERTOY\BUILD\CMAKEFILES\C6F55BD1C61235A02B565C98F18D30AB\GENERATE.STAMP.RULE
+setlocal
+E:\CMake\bin\cmake.exe -SF:/fredom/workspace/play-cc/shadertoy -BF:/fredom/workspace/play-cc/shadertoy/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/fredom/workspace/play-cc/shadertoy/build/temp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
